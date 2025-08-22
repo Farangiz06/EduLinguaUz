@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduLinguaUz — A1</title>
+<style>
+body{font-family:system-ui,Segoe UI,Arial;max-width:900px;margin:0 auto;padding:20px}
+.card{border:1px solid #eee;border-radius:12px;padding:16px;margin:10px 0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+header{display:flex;justify-content:space-between;align-items:center}
+button,select,input{padding:10px 14px;border:1px solid #ddd;border-radius:10px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<header>
+  <h2>EduLinguaUz — A1</h2>
+  <div class="row">
+    <select id="lang"><option value="es">🇪🇸 ES</option><option value="en">🇬🇧 EN</option><option value="fr">🇫🇷 FR</option><option value="de">🇩🇪 DE</option></select>
+    <button id="load">Darslarni yuklash</button>
+  </div>
+</header>
+
+<div class="card">
+  <p>A1 darajasi 4 tilda tayyor. Darslar ro‘yxatini yuklab, ichiga kiring.</p>
+</div>
+
+<div id="list"></div>
+
+<div class="card">
+  <h3>Sertifikat (demo)</h3>
+  <input id="username" placeholder="Ism" />
+  <button id="certBtn">PDF olish</button>
+</div>
+
+<script>
+const API_BASE = ""; // agar backend alohida hostda bo'lsa, shu yerga domen kiriting
+document.getElementById("load").onclick = async () => {
+  const code = document.getElementById("lang").value;
+  const res = await fetch(API_BASE + "/api/lessons/by?lang=" + code + "&level=A1");
+  const data = await res.json();
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  data.forEach(x=>{
+    const el = document.createElement("div");
+    el.className="card";
+    el.innerHTML="<b>"+x.title+"</b><p>"+x.content+"</p>";
+    list.appendChild(el);
+  });
+};
+document.getElementById("certBtn").onclick = () => {
+  const name = document.getElementById("username").value || "Student";
+  const code = document.getElementById("lang").value;
+  fetch(API_BASE + "/api/certificate/", {
+    method:"POST",
+    headers: {"Content-Type":"application/json"},
+    body: JSON.stringify({username:name, lang:code, level:"A1"})
+  }).then(r=>r.blob()).then(blob=>{
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a"); a.href=url; a.download="certificate.pdf"; a.click();
+    URL.revokeObjectURL(url);
+  });
+};
+</script>
+</body>
+</html>

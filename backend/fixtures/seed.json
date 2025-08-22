@@ -1,0 +1,1198 @@
+[
+  {
+    "model": "courses.language",
+    "pk": 1,
+    "fields": {
+      "code": "es",
+      "name": "Spanish"
+    }
+  },
+  {
+    "model": "courses.language",
+    "pk": 2,
+    "fields": {
+      "code": "fr",
+      "name": "French"
+    }
+  },
+  {
+    "model": "courses.language",
+    "pk": 3,
+    "fields": {
+      "code": "de",
+      "name": "German"
+    }
+  },
+  {
+    "model": "courses.language",
+    "pk": 4,
+    "fields": {
+      "code": "en",
+      "name": "English"
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 1,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 1,
+      "title": "ES A1 Lesson 1",
+      "content": "A1 lesson 1 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 2,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 2,
+      "title": "ES A1 Lesson 2",
+      "content": "A1 lesson 2 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 3,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 3,
+      "title": "ES A1 Lesson 3",
+      "content": "A1 lesson 3 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 4,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 4,
+      "title": "ES A1 Lesson 4",
+      "content": "A1 lesson 4 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 5,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 5,
+      "title": "ES A1 Lesson 5",
+      "content": "A1 lesson 5 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 6,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 6,
+      "title": "ES A1 Lesson 6",
+      "content": "A1 lesson 6 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 7,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 7,
+      "title": "ES A1 Lesson 7",
+      "content": "A1 lesson 7 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 8,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 8,
+      "title": "ES A1 Lesson 8",
+      "content": "A1 lesson 8 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 9,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 9,
+      "title": "ES A1 Lesson 9",
+      "content": "A1 lesson 9 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 10,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 10,
+      "title": "ES A1 Lesson 10",
+      "content": "A1 lesson 10 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 11,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 11,
+      "title": "ES A1 Lesson 11",
+      "content": "A1 lesson 11 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 12,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 12,
+      "title": "ES A1 Lesson 12",
+      "content": "A1 lesson 12 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 13,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 13,
+      "title": "ES A1 Lesson 13",
+      "content": "A1 lesson 13 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 14,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 14,
+      "title": "ES A1 Lesson 14",
+      "content": "A1 lesson 14 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 15,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 15,
+      "title": "ES A1 Lesson 15",
+      "content": "A1 lesson 15 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 16,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 16,
+      "title": "ES A1 Lesson 16",
+      "content": "A1 lesson 16 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 17,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 17,
+      "title": "ES A1 Lesson 17",
+      "content": "A1 lesson 17 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 18,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 18,
+      "title": "ES A1 Lesson 18",
+      "content": "A1 lesson 18 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 19,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 19,
+      "title": "ES A1 Lesson 19",
+      "content": "A1 lesson 19 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 20,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "order": 20,
+      "title": "ES A1 Lesson 20",
+      "content": "A1 lesson 20 for ES. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 21,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 1,
+      "title": "FR A1 Lesson 1",
+      "content": "A1 lesson 1 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 22,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 2,
+      "title": "FR A1 Lesson 2",
+      "content": "A1 lesson 2 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 23,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 3,
+      "title": "FR A1 Lesson 3",
+      "content": "A1 lesson 3 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 24,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 4,
+      "title": "FR A1 Lesson 4",
+      "content": "A1 lesson 4 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 25,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 5,
+      "title": "FR A1 Lesson 5",
+      "content": "A1 lesson 5 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 26,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 6,
+      "title": "FR A1 Lesson 6",
+      "content": "A1 lesson 6 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 27,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 7,
+      "title": "FR A1 Lesson 7",
+      "content": "A1 lesson 7 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 28,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 8,
+      "title": "FR A1 Lesson 8",
+      "content": "A1 lesson 8 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 29,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 9,
+      "title": "FR A1 Lesson 9",
+      "content": "A1 lesson 9 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 30,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 10,
+      "title": "FR A1 Lesson 10",
+      "content": "A1 lesson 10 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 31,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 11,
+      "title": "FR A1 Lesson 11",
+      "content": "A1 lesson 11 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 32,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 12,
+      "title": "FR A1 Lesson 12",
+      "content": "A1 lesson 12 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 33,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 13,
+      "title": "FR A1 Lesson 13",
+      "content": "A1 lesson 13 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 34,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 14,
+      "title": "FR A1 Lesson 14",
+      "content": "A1 lesson 14 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 35,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 15,
+      "title": "FR A1 Lesson 15",
+      "content": "A1 lesson 15 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 36,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 16,
+      "title": "FR A1 Lesson 16",
+      "content": "A1 lesson 16 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 37,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 17,
+      "title": "FR A1 Lesson 17",
+      "content": "A1 lesson 17 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 38,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 18,
+      "title": "FR A1 Lesson 18",
+      "content": "A1 lesson 18 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 39,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 19,
+      "title": "FR A1 Lesson 19",
+      "content": "A1 lesson 19 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 40,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "order": 20,
+      "title": "FR A1 Lesson 20",
+      "content": "A1 lesson 20 for FR. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 41,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 1,
+      "title": "DE A1 Lesson 1",
+      "content": "A1 lesson 1 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 42,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 2,
+      "title": "DE A1 Lesson 2",
+      "content": "A1 lesson 2 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 43,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 3,
+      "title": "DE A1 Lesson 3",
+      "content": "A1 lesson 3 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 44,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 4,
+      "title": "DE A1 Lesson 4",
+      "content": "A1 lesson 4 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 45,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 5,
+      "title": "DE A1 Lesson 5",
+      "content": "A1 lesson 5 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 46,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 6,
+      "title": "DE A1 Lesson 6",
+      "content": "A1 lesson 6 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 47,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 7,
+      "title": "DE A1 Lesson 7",
+      "content": "A1 lesson 7 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 48,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 8,
+      "title": "DE A1 Lesson 8",
+      "content": "A1 lesson 8 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 49,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 9,
+      "title": "DE A1 Lesson 9",
+      "content": "A1 lesson 9 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 50,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 10,
+      "title": "DE A1 Lesson 10",
+      "content": "A1 lesson 10 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 51,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 11,
+      "title": "DE A1 Lesson 11",
+      "content": "A1 lesson 11 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 52,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 12,
+      "title": "DE A1 Lesson 12",
+      "content": "A1 lesson 12 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 53,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 13,
+      "title": "DE A1 Lesson 13",
+      "content": "A1 lesson 13 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 54,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 14,
+      "title": "DE A1 Lesson 14",
+      "content": "A1 lesson 14 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 55,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 15,
+      "title": "DE A1 Lesson 15",
+      "content": "A1 lesson 15 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 56,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 16,
+      "title": "DE A1 Lesson 16",
+      "content": "A1 lesson 16 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 57,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 17,
+      "title": "DE A1 Lesson 17",
+      "content": "A1 lesson 17 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 58,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 18,
+      "title": "DE A1 Lesson 18",
+      "content": "A1 lesson 18 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 59,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 19,
+      "title": "DE A1 Lesson 19",
+      "content": "A1 lesson 19 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 60,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "order": 20,
+      "title": "DE A1 Lesson 20",
+      "content": "A1 lesson 20 for DE. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 61,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 1,
+      "title": "EN A1 Lesson 1",
+      "content": "A1 lesson 1 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 62,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 2,
+      "title": "EN A1 Lesson 2",
+      "content": "A1 lesson 2 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 63,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 3,
+      "title": "EN A1 Lesson 3",
+      "content": "A1 lesson 3 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 64,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 4,
+      "title": "EN A1 Lesson 4",
+      "content": "A1 lesson 4 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 65,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 5,
+      "title": "EN A1 Lesson 5",
+      "content": "A1 lesson 5 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 66,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 6,
+      "title": "EN A1 Lesson 6",
+      "content": "A1 lesson 6 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 67,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 7,
+      "title": "EN A1 Lesson 7",
+      "content": "A1 lesson 7 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 68,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 8,
+      "title": "EN A1 Lesson 8",
+      "content": "A1 lesson 8 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 69,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 9,
+      "title": "EN A1 Lesson 9",
+      "content": "A1 lesson 9 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 70,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 10,
+      "title": "EN A1 Lesson 10",
+      "content": "A1 lesson 10 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 71,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 11,
+      "title": "EN A1 Lesson 11",
+      "content": "A1 lesson 11 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 72,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 12,
+      "title": "EN A1 Lesson 12",
+      "content": "A1 lesson 12 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 73,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 13,
+      "title": "EN A1 Lesson 13",
+      "content": "A1 lesson 13 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 74,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 14,
+      "title": "EN A1 Lesson 14",
+      "content": "A1 lesson 14 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 75,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 15,
+      "title": "EN A1 Lesson 15",
+      "content": "A1 lesson 15 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 76,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 16,
+      "title": "EN A1 Lesson 16",
+      "content": "A1 lesson 16 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 77,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 17,
+      "title": "EN A1 Lesson 17",
+      "content": "A1 lesson 17 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 78,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 18,
+      "title": "EN A1 Lesson 18",
+      "content": "A1 lesson 18 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 79,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 19,
+      "title": "EN A1 Lesson 19",
+      "content": "A1 lesson 19 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 80,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "order": 20,
+      "title": "EN A1 Lesson 20",
+      "content": "A1 lesson 20 for EN. Basic phrases, grammar, vocabulary and exercises.",
+      "audio_url": "",
+      "video_url": "",
+      "is_published": true
+    }
+  },
+  {
+    "model": "courses.story",
+    "pk": 1001,
+    "fields": {
+      "language": 1,
+      "level": "A1",
+      "title": "A1 Mini Story (ES)",
+      "text": "Short simple story text for reading practice.",
+      "audio_url": ""
+    }
+  },
+  {
+    "model": "courses.story",
+    "pk": 1002,
+    "fields": {
+      "language": 2,
+      "level": "A1",
+      "title": "A1 Mini Story (FR)",
+      "text": "Short simple story text for reading practice.",
+      "audio_url": ""
+    }
+  },
+  {
+    "model": "courses.story",
+    "pk": 1003,
+    "fields": {
+      "language": 3,
+      "level": "A1",
+      "title": "A1 Mini Story (DE)",
+      "text": "Short simple story text for reading practice.",
+      "audio_url": ""
+    }
+  },
+  {
+    "model": "courses.story",
+    "pk": 1004,
+    "fields": {
+      "language": 4,
+      "level": "A1",
+      "title": "A1 Mini Story (EN)",
+      "text": "Short simple story text for reading practice.",
+      "audio_url": ""
+    }
+  }
+]
